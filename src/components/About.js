@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
 const About = () => {
   return (
     <section
@@ -11,7 +14,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/about-me.png" title="" alt="" />
+                  <Image src="/static/img/about-me.png" alt="About me" width={400} height={400} />
                 </div>
               </div>
             </div>
@@ -23,7 +26,7 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  I'm Priyesh Jaiswal, a Full Stack Developer with 8+ years of experience.
+                  I&apos;m Priyesh Jaiswal, a Full Stack Developer with 8+ years of experience.
                 </h3>
                 <p>
                   Based in New Delhi, India, I specialize in building scalable, secure, and high-performance web applications using technologies like Node.js, React, Next.js, and AWS. I have successfully delivered 100+ projects for clients worldwide, ranging from startups to established enterprises. My expertise covers both frontend and backend development, API design, cloud infrastructure, and DevOps. I am passionate about solving complex problems and helping businesses grow through technology.
@@ -49,12 +52,12 @@ const About = () => {
                   </div>
                 </div>
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="/#contactus">
-                    <span>Contact Me</span>
-                  </a>
-                  <a className="px-btn px-btn-theme" href="/#work">
-                    <span>Portfolio</span>
-                  </a>
+                  <Link className="px-btn px-btn-theme" href="/#contactus">
+                    Contact Me
+                  </Link>
+                  <Link className="px-btn px-btn-theme" href="/#work">
+                    Portfolio
+                  </Link>
                 </div>
               </div>
             </div>
@@ -156,7 +159,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a0.png" title="" alt="" />
+                  <Image src="/static/img/a0.png" alt="Experience 1" width={60} height={60} />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -175,7 +178,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a1.png" title="" alt="" />
+                  <Image src="/static/img/a1.png" alt="Experience 2" width={60} height={60} />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -194,7 +197,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a2.png" title="" alt="" />
+                  <Image src="/static/img/a2.png" alt="Experience 3" width={60} height={60} />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -213,7 +216,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a3.png" title="" alt="" />
+                  <Image src="/static/img/a3.png" alt="Experience 4" width={60} height={60} />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">

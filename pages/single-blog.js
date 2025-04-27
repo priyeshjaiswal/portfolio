@@ -1,11 +1,13 @@
 import Layout from "../src/layout/Layout";
+import Image from 'next/image';
+
 const SingleBlog = () => {
   return (
     <Layout blog>
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
-            <img src="static/img/single-blog.jpg" title="" alt="" />
+            <Image src="/static/img/single-blog.jpg" alt="Blog feature" width={800} height={400} />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -17,7 +19,7 @@ const SingleBlog = () => {
                   <h2>They Now Bade Farewell To The Kind But Unseen People</h2>
                   <div className="media">
                     <div className="avatar">
-                      <img src="static/img/team-1.jpg" title="" alt="" />
+                      <Image src="/static/img/team-1.jpg" alt="Author" width={60} height={60} />
                     </div>
                     <div className="media-body">
                       <label>Priyesh Jaiswal</label>

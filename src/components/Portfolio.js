@@ -1,5 +1,7 @@
 import Isotope from "isotope-layout";
 import { useEffect, useRef, useState } from "react";
+import Image from 'next/image';
+
 const Portfolio = () => {
   // Isotope
   const isotope = useRef();
@@ -83,10 +85,10 @@ const Portfolio = () => {
                 <span>Natural skincare Brand</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/nebesa.png" title="" alt="" />
+                <Image src="/static/img/nebesa.png" alt="Nebesa Organics" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/nebesa.png"
+                    href="/static/img/nebesa.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -104,10 +106,10 @@ const Portfolio = () => {
                 <span>Banner Design</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/1.png" title="" alt="" />
+                <Image src="/static/img/graphic/1.png" alt="letCumers Closet" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/1.png"
+                    href="/static/img/graphic/1.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -124,10 +126,10 @@ const Portfolio = () => {
                 <span>Electronic items</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/ozomax.png" title="" alt="" />
+                <Image src="/static/img/ozomax.png" alt="Ozomax" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/ozomax.png"
+                    href="/static/img/ozomax.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -144,10 +146,10 @@ const Portfolio = () => {
                 <span>Banner Design</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/2.png" title="" alt="" />
+                <Image src="/static/img/graphic/2.png" alt="Nekka India" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/2.png"
+                    href="/static/img/graphic/2.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -164,10 +166,10 @@ const Portfolio = () => {
                 <span>Coaching Institute</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/veron.png" title="" alt="" />
+                <Image src="/static/img/veron.png" alt="Veron Institute" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/veron.png"
+                    href="/static/img/veron.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -184,10 +186,10 @@ const Portfolio = () => {
                 <span>Travelling Platform</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/volunteer-yatra.png" title="" alt="" />
+                <Image src="/static/img/volunteer-yatra.png" alt="Volunteer Yatra" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/volunteer-yatra.png"
+                    href="/static/img/volunteer-yatra.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -205,10 +207,10 @@ const Portfolio = () => {
                 <span>logo Design</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/4.png" title="" alt="" />
+                <Image src="/static/img/graphic/4.png" alt="Raj Consultancy" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/4.png"
+                    href="/static/img/graphic/4.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -226,10 +228,10 @@ const Portfolio = () => {
                 <span>IT Company</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/comhard-tech.png" title="" alt="" />
+                <Image src="/static/img/comhard-tech.png" alt="Comhard Technologies" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/comhard-tech.png"
+                    href="/static/img/comhard-tech.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -246,10 +248,10 @@ const Portfolio = () => {
                 <span>logo Design & Branding</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/5.png" title="" alt="" />
+                <Image src="/static/img/graphic/5.png" alt="Times Global" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/5.png"
+                    href="/static/img/graphic/5.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -267,10 +269,10 @@ const Portfolio = () => {
                 <span>logo Design & Branding</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/6.png" title="" alt="" />
+                <Image src="/static/img/graphic/6.png" alt="let Cumers Closet" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/6.png"
+                    href="/static/img/graphic/6.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />
@@ -288,10 +290,10 @@ const Portfolio = () => {
                 <span>Poster Design</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/graphic/7.png" title="" alt="" />
+                <Image src="/static/img/graphic/7.png" alt="Wedding Card Invitation" width={400} height={300} />
                 <div className="portfolio-icon">
                   <a
-                    href="static/img/graphic/7.png"
+                    href="/static/img/graphic/7.png"
                     className="gallery-link"
                   >
                     <span className="ti-plus" />

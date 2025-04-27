@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const Blog = () => {
   return (
@@ -17,7 +18,7 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-1.jpg" title="" alt="Blog post 1" />
+                  <Image src="/static/img/blog-1.jpg" alt="Blog post 1" width={400} height={250} />
                 </Link>
               </div>
               <div className="blog-info">
@@ -35,7 +36,7 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-2.jpg" title="" alt="Blog post 2" />
+                  <Image src="/static/img/blog-2.jpg" alt="Blog post 2" width={400} height={250} />
                 </Link>
               </div>
               <div className="blog-info">
@@ -53,7 +54,7 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-3.jpg" title="" alt="Blog post 3" />
+                  <Image src="/static/img/blog-3.jpg" alt="Blog post 3" width={400} height={250} />
                 </Link>
               </div>
               <div className="blog-info">
@@ -71,7 +72,7 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-4.jpg" title="" alt="Blog post 4" />
+                  <Image src="/static/img/blog-4.jpg" alt="Blog post 4" width={400} height={250} />
                 </Link>
               </div>
               <div className="blog-info">

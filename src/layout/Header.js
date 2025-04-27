@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
 import Link from "next/link";
+import Image from 'next/image';
 
 const socialLinks = {
   instagram: "https://www.instagram.com/priyeshjaiswal_/",
@@ -14,7 +15,7 @@ const Header = ({ blog }) => {
     if (!blog) {
       activeSection();
     }
-  }, []);
+  }, [blog]);
 
   return (
     <Fragment>
@@ -45,7 +46,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="" alt="Profile" />
+                <Image src="/static/img/about-me.jpg" alt="Profile" width={100} height={90} />
               </div>
               <h5>Priyesh</h5>
             </div>
