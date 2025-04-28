@@ -23,7 +23,7 @@ const Header = ({ blog }) => {
         <div className="d-flex">
           <div className="navbar-brand">
             <Link className="logo-text" href="/">
-              Sergio
+              Priyesh Jaiswal
             </Link>
           </div>
           <button

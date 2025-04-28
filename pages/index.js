@@ -39,7 +39,16 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <Image src="/static/img/home-banner.png" alt="Home banner" width={500} height={500} />
+                  <div style={{ position: "relative", width: "100%", maxWidth: 500, aspectRatio: "1 / 1" }}>
+                    <Image
+                      src="/static/img/home-banner.png"
+                      alt="Home banner"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      sizes="(max-width: 768px) 100vw, 500px"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
             </div>
