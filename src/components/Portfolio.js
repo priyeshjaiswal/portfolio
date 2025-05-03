@@ -126,7 +126,29 @@ const Portfolio = () => {
                 <span>Banner Design</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/1.png" alt="letCumers Closet" width={400} height={500} />
+                <Image src="/static/img/graphic/1.png" alt="letCumers Closet" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/1.png"
@@ -166,7 +188,29 @@ const Portfolio = () => {
                 <span>Banner Design</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/2.png" alt="Nekka India" width={400} height={500} />
+                <Image src="/static/img/graphic/2.png" alt="Nekka India" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/2.png"
@@ -227,7 +271,29 @@ const Portfolio = () => {
                 <span>logo Design</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/4.png" alt="Raj Consultancy" width={400} height={500} />
+                <Image src="/static/img/graphic/4.png" alt="Raj Consultancy" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/4.png"
@@ -268,7 +334,29 @@ const Portfolio = () => {
                 <span>logo Design & Branding</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/5.png" alt="Times Global" width={400} height={500} />
+                <Image src="/static/img/graphic/5.png" alt="Times Global" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/5.png"
@@ -289,7 +377,29 @@ const Portfolio = () => {
                 <span>logo Design & Branding</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/6.png" alt="let Cumers Closet" width={400} height={500} />
+                <Image src="/static/img/graphic/6.png" alt="let Cumers Closet" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/6.png"
@@ -310,7 +420,29 @@ const Portfolio = () => {
                 <span>Poster Design</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/graphic/7.png" alt="Wedding Card Invitation" width={400} height={500} />
+                <Image src="/static/img/graphic/7.png" alt="Wedding Card Invitation" width={400} height={400} 
+                  style={{
+                    height: '400px',
+                    width: '400px',
+                    objectFit: 'cover',
+                  }}
+                  className="portfolio-img-responsive graphic-design"
+                />
+                <style jsx>{`
+                  @media (min-width: 768px) {
+                    .graphic-design {
+                      height: 400px !important;
+                      width: 400px !important;
+                      max-width: 400px !important;
+                    }
+                  }
+                  @media (max-width: 767px) {
+                    .portfolio-img-responsive {
+                      height: 600px !important;
+                      max-width: 100% !important;
+                    }
+                  }
+                `}</style>
                 <div className="portfolio-icon">
                   <a
                     href="/static/img/graphic/7.png"
@@ -322,7 +454,6 @@ const Portfolio = () => {
               </div>
             </div>
           </div>{" "}
-          {/* grid item */}
 
         </div>
       </div>

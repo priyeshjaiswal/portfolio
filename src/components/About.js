@@ -159,14 +159,34 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
+                  <Image src="/static/img/a1.png" alt="Experience 0" width={60} height={60} />
+                </div>
+              </div>
+              <div className="col-sm-9 col-md-9 col-xl-10">
+                <div className="rb-right">
+                  <h6>Senior Software Developer</h6>
+                  <label>Actano Solution Pvt Ltd | Hybrid | April 2025 - Present</label>
+                  <div className="rb-time">Full Time</div>
+                  <p className="justify-content-center">
+                    At Actano, I am working on full-stack development for web and mobile platforms with a strong focus on real-world IoT integration. I have been developing scalable APIs with Node.js and Express, enabling secure communication between Flutter mobile apps and embedded IoT hardware. My responsibilities include managing MQTT-based data streams from industrial devices, designing device telemetry models, and implementing efficient alert systems. I also contributed to real-time monitoring dashboards and worked closely with hardware teams to validate communication protocols. This role has deepened my expertise in edge computing, secure cloud deployment, and mobile software optimization.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="resume-row">
+            <div className="row">
+              <div className="col-sm-3 col-md-3 col-xl-2">
+                <div className="rb-left">
                   <Image src="/static/img/a0.png" alt="Experience 1" width={60} height={60} />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Head of Technology</h6>
-                  <label>Volunteer Yatra Pvt. Ltd. | Hybrid | Aug. 2024 - Present</label>
-                  <div className="rb-time">Full Time</div>
+                  <label>Volunteer Yatra Pvt. Ltd. | Hybrid | Aug. 2024 - March 2025</label>
+                  <div className="rb-time">Hybrid</div>
                   <p className="justify-content-center">
                     In my current role, I spearheaded the development and launch of a sophisticated website utilizing Next.js, Node.js, and MySQL, later successfully migrating to Supabase (PostgreSQL) for enhanced scalability. I architected and implemented comprehensive RESTful APIs, seamlessly integrating payment gateways and ensuring robust frontend-backend communication. My commitment to code quality and documentation was demonstrated through the implementation of Swagger, JSDoc, and Postman for thorough API testing and documentation, significantly improving development efficiency. I managed AWS infrastructure, implementing Docker deployments and GitHub workflows to create a secure and scalable system. As a tech team leader, I effectively coordinated task assignments and streamlined workflows using Notion and GitHub, optimizing team productivity. Additionally, I pioneered the integration of AI tools like ChatGPT and Cursor AI to enhance code quality, boost performance, and accelerate development cycles, resulting in more efficient and innovative solutions.
                   </p>
@@ -183,7 +203,7 @@ const About = () => {
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h6>Software Engineer</h6>
+                  <h6>Software Developer</h6>
                   <label>ARCTANO SOLUTION PRIVATE LIMITED. | Hybrid | Sept. 2023- April 2024</label>
                   <div className="rb-time">Full Time</div>
                   <p className="justify-content-center">
